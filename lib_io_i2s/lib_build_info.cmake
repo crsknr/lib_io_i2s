@@ -1,4 +1,4 @@
-set(LIB_NAME lib_io_i2c)
+set(LIB_NAME lib_io_i2s)
 set(LIB_VERSION 1.0.0)
 set(LIB_INCLUDES api)
 set(LIB_COMPILER_FLAGS -Os -g)
