@@ -1,36 +1,19 @@
-# IO Framework Repository
+# lib_io_i2s: I²S Library for XMOS xcore
 
-This repository is a collection of C/C++ peripheral IO libraries used to develop for xcore:
+This repository contains the I²S peripheral library extracted from the XMOS xcore_iot framework for standalone use.
 
-Supported peripherals include:
+## Overview
 
-- UART
-- I2C
-- I2S
-- SPI
-- PDM microphones
-- USB
+**Source:** Extracted from [XMOS xcore_iot](https://github.com/xmos/xcore_iot) repository  
+**Purpose:** Standalone I²S library for easier integration and workflow management
+**Original Authors:** XMOS Limited
 
-## Build Status
+## Attribution
 
-Build Type       |    Status     |
------------      | --------------|
-CI (Linux)       | ![CI](https://github.com/xmos/fwk_io/actions/workflows/ci.yml/badge.svg?branch=develop&event=push) |
-Docs             | ![CI](https://github.com/xmos/fwk_io/actions/workflows/docs.yml/badge.svg?branch=develop&event=push) |
+This repo is a copy of the I²S components from the XMOS xcore_iot framework and is subject to the XMOS Public Licence Version 1.
+The original work is copyright XMOS Limited.
 
-## Cloning
-
-Some dependent components are included as git submodules. These can be obtained by cloning this repository with the following command:
-
-    $ git clone --recurse-submodules https://github.com/xmos/fwk_io.git
-
-## Testing
-
-Information on running tests can be found in the tests [README](https://github.com/xmos/fwk_io/blob/develop/test/README.rst).
-
-## Documentation
-
-Information on building the documentation can be found in the docs [README](https://github.com/xmos/fwk_io/blob/develop/doc/README.rst).
+**Original Repository:** [XMOS xcore_iot](https://github.com/xmos/xcore_iot)
 
 ## License
 
