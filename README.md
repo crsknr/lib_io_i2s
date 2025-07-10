@@ -5,8 +5,8 @@ This repository contains the I²S peripheral library extracted from the XMOS xco
 ## Overview
 
 **Source:** Extracted from [XMOS xcore_iot](https://github.com/xmos/xcore_iot) repository  
-**Purpose:** Standalone I²S library for easier integration and workflow management
-**Original Authors:** XMOS Limited
+**Purpose:** Standalone I²S library for easier integration and workflow management  
+**Original Authors:** XMOS Limited  
 
 ## Attribution
 
